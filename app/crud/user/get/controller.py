@@ -1,4 +1,4 @@
-from app.crud.get.service import get_all_users_service, get_user_by_id_service
+from app.crud.user.get.service import get_all_users_service, get_user_by_id_service
 from app.models import User
 from typing import Optional
 

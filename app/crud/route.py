@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from .create.controller import router as create_router
 from .get.controller import router as get_router
-from .update.controller import router as update_router
+from .put.controller import router as update_router
 from .delete.controller import router as delete_router
 
 router = APIRouter()

@@ -1,4 +1,4 @@
-from app.crud.delete.service import delete_user_service
+from app.crud.user.delete.service import delete_user_service
 from fastapi import HTTPException
 
 def delete_user_controller(user_id: int):

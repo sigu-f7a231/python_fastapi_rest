@@ -1,4 +1,4 @@
-from app.crud.put.service import update_user_service
+from app.crud.user.put.service import update_user_service
 from app.models import UserInput, User
 from typing import Optional
 from fastapi import HTTPException

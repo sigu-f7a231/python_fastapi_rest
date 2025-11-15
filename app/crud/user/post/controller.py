@@ -1,4 +1,4 @@
-from app.crud.create.service import create_user_service
+from app.crud.user.post.service import create_user_service
 from app.models import User, UserInput
 
 def create_user_controller(user_input: UserInput) -> User:

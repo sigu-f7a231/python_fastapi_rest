@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from app.crud.delete.controller import delete_user_controller
+from app.crud.user.delete.controller import delete_user_controller
 
 router = APIRouter()
 

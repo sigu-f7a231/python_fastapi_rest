@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from app.crud.get.controller import get_all_users_controller, get_user_by_id_controller
+from app.crud.user.get.controller import get_all_users_controller, get_user_by_id_controller
 from app.models import User
 
 router = APIRouter()

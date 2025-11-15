@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from app.crud.create.controller import create_user_controller
+from app.crud.user.post.controller import create_user_controller
 from app.models import User, UserInput
 
 router = APIRouter()
